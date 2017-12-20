@@ -1,0 +1,8 @@
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\bin\Debug\netcoreapp2.0\NewVision.IDP.deps.json
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\bin\Debug\netcoreapp2.0\NewVision.IDP.runtimeconfig.json
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\bin\Debug\netcoreapp2.0\NewVision.IDP.runtimeconfig.dev.json
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\bin\Debug\netcoreapp2.0\NewVision.IDP.dll
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\obj\Debug\netcoreapp2.0\NewVision.IDP.csprojResolveAssemblyReference.cache
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\obj\Debug\netcoreapp2.0\NewVision.IDP.csproj.CoreCompileInputs.cache
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\obj\Debug\netcoreapp2.0\NewVision.IDP.AssemblyInfoInputs.cache
+C:\WorkSpace\NewVisionIDP\src\NewVision.IDP\obj\Debug\netcoreapp2.0\NewVision.IDP.AssemblyInfo.cs
