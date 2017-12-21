@@ -12581,6 +12581,7 @@
     ".NETCoreApp,Version=v2.0": [
       "IdentityServer4 >= 2.0.6",
       "Microsoft.AspNetCore.All >= 2.0.3",
+      "Microsoft.Extensions.Logging.Debug >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -12594,11 +12595,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\NewVisionIDP\\src\\NewVision.IDP\\NewVision.IDP.csproj",
+      "projectUniqueName": "C:\\WorkSpace\\NewVisionIDP\\NewVision\\src\\NewVision.IDP\\NewVision.IDP.csproj",
       "projectName": "NewVision.IDP",
-      "projectPath": "C:\\WorkSpace\\NewVisionIDP\\src\\NewVision.IDP\\NewVision.IDP.csproj",
+      "projectPath": "C:\\WorkSpace\\NewVisionIDP\\NewVision\\src\\NewVision.IDP\\NewVision.IDP.csproj",
       "packagesPath": "C:\\Users\\Jonb\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkSpace\\NewVisionIDP\\src\\NewVision.IDP\\obj\\",
+      "outputPath": "C:\\WorkSpace\\NewVisionIDP\\NewVision\\src\\NewVision.IDP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12636,6 +12637,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.3, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
