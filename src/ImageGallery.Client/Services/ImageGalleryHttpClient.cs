@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImageGallery.Client.Services
 {
-    public class ImageGalleryHttpClient : IImageGaleryHttpClient
+    public class ImageGalleryHttpClient : IImageGalleryHttpClient
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
         private HttpClient _httpClient = new HttpClient();

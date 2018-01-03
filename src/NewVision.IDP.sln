@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewVision.IDP", "NewVision.IDP\NewVision.IDP.csproj", "{1497D8F1-7974-4EEC-B698-7A2798653763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Client", "ImageGallery.Client\ImageGallery.Client.csproj", "{65325268-77AE-4BF7-84A1-6EEBFF562686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Client", "ImageGallery.Client\ImageGallery.Client.csproj", "{65325268-77AE-4BF7-84A1-6EEBFF562686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Model", "ImageGallery.Model\ImageGallery.Model.csproj", "{0CA543AB-F4A3-4D23-8B3F-1D1AF2A5ACB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65325268-77AE-4BF7-84A1-6EEBFF562686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65325268-77AE-4BF7-84A1-6EEBFF562686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65325268-77AE-4BF7-84A1-6EEBFF562686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA543AB-F4A3-4D23-8B3F-1D1AF2A5ACB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA543AB-F4A3-4D23-8B3F-1D1AF2A5ACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA543AB-F4A3-4D23-8B3F-1D1AF2A5ACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA543AB-F4A3-4D23-8B3F-1D1AF2A5ACB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

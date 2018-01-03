@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace ImageGallery.Client.Services
 {
-    public class IImageGaleryHttpClient
+    public interface IImageGalleryHttpClient
     {
         Task<HttpClient> GetClient();
     }

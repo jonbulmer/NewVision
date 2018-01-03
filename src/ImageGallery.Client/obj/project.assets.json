@@ -4746,6 +4746,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "ImageGallery.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ImageGallery.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImageGallery.Model.dll": {}
+        }
       }
     }
   },
@@ -12525,10 +12535,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "ImageGallery.Model/1.0.0": {
+      "type": "project",
+      "path": "../ImageGallery.Model/ImageGallery.Model.csproj",
+      "msbuildProject": "../ImageGallery.Model/ImageGallery.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ImageGallery.Model >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12566,7 +12582,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\WorkSpace\\NewVision\\src\\ImageGallery.Model\\ImageGallery.Model.csproj": {
+              "projectPath": "C:\\WorkSpace\\NewVision\\src\\ImageGallery.Model\\ImageGallery.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
