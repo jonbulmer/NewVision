@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
+using ImageGallery.Client.Services;
 
 namespace ImageGallery.Client
 {
@@ -24,6 +25,7 @@ namespace ImageGallery.Client
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add framwork sevices.
             services.AddMvc();
 
             // register an IHttpContextAccessor so we can access the current
@@ -31,7 +33,7 @@ namespace ImageGallery.Client
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             // register an IImageGalleryHttpClient
-            ////services.AddScoped<IImageGalleryHttpClient, ImageGalleryHttpClient>();
+            services.AddScoped<IImageGalleryHttpClient, ImageGalleryHttpClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
