@@ -17,6 +17,8 @@ namespace ImageGallery.API
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
+
+            host.Run();
         }
     }
 }

@@ -20,6 +20,5 @@ namespace ImageGallery.Client
 
             host.Run();
         }
-
     }
 }

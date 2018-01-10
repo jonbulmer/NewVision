@@ -1,0 +1,13 @@
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.API.deps.json
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.API.runtimeconfig.json
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.API.runtimeconfig.dev.json
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.API.dll
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.API.pdb
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.Model.dll
+C:\WorkSpace\NewVision\src\ImageGallery.API\bin\Debug\netcoreapp1.1\ImageGallery.Model.pdb
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.csprojResolveAssemblyReference.cache
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.csproj.CoreCompileInputs.cache
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.AssemblyInfoInputs.cache
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.AssemblyInfo.cs
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.dll
+C:\WorkSpace\NewVision\src\ImageGallery.API\obj\Debug\netcoreapp1.1\ImageGallery.API.pdb

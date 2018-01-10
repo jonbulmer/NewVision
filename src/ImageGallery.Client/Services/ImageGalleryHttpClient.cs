@@ -15,14 +15,16 @@ namespace ImageGallery.Client.Services
         {
             _httpContextAccessor = httpContextAccessor;
         }
+        
         public async Task<HttpClient> GetClient()
-        {
+        {      
             _httpClient.BaseAddress = new Uri("http://localhost:1601/");
             _httpClient.DefaultRequestHeaders.Accept.Clear();
             _httpClient.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
 
             return _httpClient;
-        } 
+        }        
     }
 }
+

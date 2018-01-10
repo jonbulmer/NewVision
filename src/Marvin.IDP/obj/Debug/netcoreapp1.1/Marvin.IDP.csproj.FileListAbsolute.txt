@@ -1,0 +1,11 @@
+C:\WorkSpace\NewVision\src\Marvin.IDP\bin\Debug\netcoreapp1.1\Marvin.IDP.deps.json
+C:\WorkSpace\NewVision\src\Marvin.IDP\bin\Debug\netcoreapp1.1\Marvin.IDP.runtimeconfig.json
+C:\WorkSpace\NewVision\src\Marvin.IDP\bin\Debug\netcoreapp1.1\Marvin.IDP.runtimeconfig.dev.json
+C:\WorkSpace\NewVision\src\Marvin.IDP\bin\Debug\netcoreapp1.1\Marvin.IDP.dll
+C:\WorkSpace\NewVision\src\Marvin.IDP\bin\Debug\netcoreapp1.1\Marvin.IDP.pdb
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.csprojResolveAssemblyReference.cache
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.csproj.CoreCompileInputs.cache
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.AssemblyInfoInputs.cache
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.AssemblyInfo.cs
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.dll
+C:\WorkSpace\NewVision\src\Marvin.IDP\obj\Debug\netcoreapp1.1\Marvin.IDP.pdb

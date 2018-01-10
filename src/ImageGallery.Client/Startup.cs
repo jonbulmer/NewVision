@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,18 +14,18 @@ namespace ImageGallery.Client
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsetting.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Add framwork sevices.
+            // Add framework services.
             services.AddMvc();
 
             // register an IHttpContextAccessor so we can access the current
@@ -51,7 +51,7 @@ namespace ImageGallery.Client
             {
                 app.UseExceptionHandler("/Shared/Error");
             }
-
+            
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
@@ -60,6 +60,6 @@ namespace ImageGallery.Client
                     name: "default",
                     template: "{controller=Gallery}/{action=Index}/{id?}");
             });
-        }
+        }         
     }
 }

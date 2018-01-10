@@ -1,0 +1,9 @@
+C:\WorkSpace\NewVision\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.deps.json
+C:\WorkSpace\NewVision\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.dll
+C:\WorkSpace\NewVision\src\ImageGallery.Model\bin\Debug\netstandard1.6\ImageGallery.Model.pdb
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.csproj.CoreCompileInputs.cache
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.AssemblyInfoInputs.cache
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.AssemblyInfo.cs
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.dll
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.pdb
+C:\WorkSpace\NewVision\src\ImageGallery.Model\obj\Debug\netstandard1.6\ImageGallery.Model.csprojResolveAssemblyReference.cache

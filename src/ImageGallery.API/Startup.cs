@@ -12,6 +12,8 @@ namespace ImageGallery.API
 {
     public class Startup
     {
+        public static IConfigurationRoot Configuration;
+
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -23,14 +25,12 @@ namespace ImageGallery.API
             Configuration = builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
-
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-
+             services.AddMvc();
+                      
             // register the DbContext on the container, getting the connection string from
             // appSettings (note: use this during development; in a production environment,
             // it's better to store the connection string in an environment variable)
@@ -42,7 +42,7 @@ namespace ImageGallery.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, 
             ILoggerFactory loggerFactory, GalleryContext galleryContext)
         {
             loggerFactory.AddConsole();
@@ -88,14 +88,13 @@ namespace ImageGallery.API
 
             AutoMapper.Mapper.AssertConfigurationIsValid();
 
-            // ensure DB migrations are applied
+			// ensure DB migrations are applied
             galleryContext.Database.Migrate();
 
             // seed the DB with data
             galleryContext.EnsureSeedDataForContext();
-
-
-            app.UseMvc();
+			
+            app.UseMvc(); 
         }
     }
 }

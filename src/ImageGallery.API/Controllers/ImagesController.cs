@@ -79,7 +79,7 @@ namespace ImageGallery.API.Controllers
 
             // create the filename
             string fileName = Guid.NewGuid().ToString() + ".jpg";
-
+            
             // the full file path
             var filePath = Path.Combine($"{webRootPath}/images/{fileName}");
 
@@ -125,9 +125,9 @@ namespace ImageGallery.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateImage(Guid id,
+        public IActionResult UpdateImage(Guid id, 
             [FromBody] ImageForUpdate imageForUpdate)
-        {
+        {           
             if (imageForUpdate == null)
             {
                 return BadRequest();
