@@ -51,6 +51,24 @@ namespace ImageGallery.Client
             {
                 app.UseExceptionHandler("/Shared/Error");
             }
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationScheme = "Cookies"
+            });
+
+            app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
+            {
+                AuthenticationScheme = "oidc",
+                Authority = "https://localhost:44379/",
+                RequireHttpsMetadata = true,
+                ClientId = "imagegalleryclient",
+                Scope = {"openid", "profile"},
+                ResponseType = "code id_token",
+                //CallbackPath = new PathString("...")
+                SignInScheme = "Cookies",
+                SaveTokens = true
+            });
             
             app.UseStaticFiles();
 
