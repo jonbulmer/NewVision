@@ -67,7 +67,8 @@ namespace ImageGallery.Client
                 ResponseType = "code id_token",
                 //CallbackPath = new PathString("...")
                 SignInScheme = "Cookies",
-                SaveTokens = true
+                SaveTokens = true,
+                ClientSecret = "secret"
             });
             
             app.UseStaticFiles();
